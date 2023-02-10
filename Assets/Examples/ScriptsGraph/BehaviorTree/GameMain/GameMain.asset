@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b054871c218762940a3c910314121b68, type: 3}
+  m_Name: GameMain
+  m_EditorClassIdentifier: 
+  serializedNodes: []
+  nodes:
+  - rid: 4485870231381607333
+  - rid: 4485870231381607334
+  - rid: 4485870231381607335
+  - rid: 4485870231381607336
+  - rid: 4485870231381607337
+  edges:
+  - GUID: 85229ece-111a-46a6-9d32-1da71f216904
+    owner: {fileID: 11400000}
+    inputNodeGUID: d307e55c-3db7-4718-b988-64a2f3f0f15e
+    outputNodeGUID: f0a3a66d-1a31-47cc-822a-88311e63903e
+    inputFieldName: inTaskStatus
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 2b25ddf2-1bd6-40d1-8f22-a9963e324ae2
+    owner: {fileID: 11400000}
+    inputNodeGUID: 52426fb0-0573-45c1-86e9-bb13850f7609
+    outputNodeGUID: d307e55c-3db7-4718-b988-64a2f3f0f15e
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: bd78fb59-8769-4b34-8f9b-a5cafcc5eda4
+    owner: {fileID: 11400000}
+    inputNodeGUID: 801c3d7a-9a0c-477b-8013-32a63b592e9f
+    outputNodeGUID: d307e55c-3db7-4718-b988-64a2f3f0f15e
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 173045b5-af55-41d2-8c87-1d936b90a0d4
+    owner: {fileID: 11400000}
+    inputNodeGUID: cb643070-d977-4e6d-866e-f56f47d00703
+    outputNodeGUID: d307e55c-3db7-4718-b988-64a2f3f0f15e
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  groups: []
+  stackNodes: []
+  pinnedElements:
+  - position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 360
+      height: 500
+    opened: 0
+    editorType:
+      serializedType: GraphProcessor.BaseNodeInspectorView, com.alelievr.NodeGraphProcessor.Editor,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - position:
+      serializedVersion: 2
+      x: 0
+      y: 22
+      width: 527
+      height: 613
+    opened: 1
+    editorType:
+      serializedType: MyBehaviorTree.BaseTaskNodeInspectorView, Assembly-CSharp-Editor,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  exposedParameters: []
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: 425, y: -1, z: 0}
+  scale: {x: 0.65751624, y: 0.65751624, z: 1}
+  references:
+    version: 2
+    RefIds:
+    - rid: 4485870231381607333
+      type: {class: EntryNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u5165\u53E3"
+        GUID: f0a3a66d-1a31-47cc-822a-88311e63903e
+        computeOrder: 0
+        position:
+          serializedVersion: 2
+          x: 458
+          y: 277
+          width: 140
+          height: 112
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+    - rid: 4485870231381607334
+      type: {class: LoadAssetAction, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u8D44\u6E90\u52A0\u8F7D"
+        GUID: 52426fb0-0573-45c1-86e9-bb13850f7609
+        computeOrder: 2
+        position:
+          serializedVersion: 2
+          x: 309.95
+          y: 579.0002
+          width: 160
+          height: 120
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: "\u52A0\u8F7D\u5730\u56FE"
+        status: 0
+        assetPath: Assets/Examples/Prefabs/Map/Map_TestEnvironment.prefab
+    - rid: 4485870231381607335
+      type: {class: SequenceNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u961F\u5217 \nSequence"
+        GUID: d307e55c-3db7-4718-b988-64a2f3f0f15e
+        computeOrder: 1
+        position:
+          serializedVersion: 2
+          x: 458
+          y: 434
+          width: 140
+          height: 118
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        abortType: 0
+        inTaskStatus: 0
+    - rid: 4485870231381607336
+      type: {class: LoadAssetAction, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u8D44\u6E90\u52A0\u8F7D"
+        GUID: 801c3d7a-9a0c-477b-8013-32a63b592e9f
+        computeOrder: 3
+        position:
+          serializedVersion: 2
+          x: 555.0001
+          y: 579
+          width: 160
+          height: 140
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: "\u52A0\u8F7D\u89D2\u8272"
+        status: 0
+        assetPath: Assets/Examples/Prefabs/Role/Role_Capsule.prefab
+    - rid: 4485870231381607337
+      type: {class: LogNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u65E5\u5FD7"
+        GUID: cb643070-d977-4e6d-866e-f56f47d00703
+        computeOrder: 4
+        position:
+          serializedVersion: 2
+          x: 906.8528
+          y: 613.31415
+          width: 160
+          height: 120
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: Log
+        enable: 1
+        description: 
+        status: 0
+        log: log
+        logType: 3
+        returnTaskStatus: 2
+        utility: 0

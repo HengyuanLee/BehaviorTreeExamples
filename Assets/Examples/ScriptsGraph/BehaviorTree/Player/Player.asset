@@ -1,0 +1,702 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b054871c218762940a3c910314121b68, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: 
+  serializedNodes: []
+  nodes:
+  - rid: 4485870231381606668
+  - rid: 4485870231381606669
+  - rid: 4485870231381606670
+  - rid: 4485870231381606671
+  - rid: 4485870231381606672
+  - rid: 4485870231381606673
+  - rid: 4485870231381606674
+  - rid: 4485870231381606675
+  - rid: 4485870231381606676
+  - rid: 4485870231381606677
+  - rid: 4485870231381606678
+  - rid: 4485870231381606679
+  - rid: 4485870231381606680
+  - rid: 4485870231381606681
+  - rid: 4485870231381606682
+  - rid: 4485870231381606683
+  - rid: 4485870231381606684
+  - rid: 4485870231381606685
+  - rid: 4485870231381606686
+  - rid: 4485870231381606687
+  - rid: 4485870231381606688
+  edges:
+  - GUID: 1d4f55dc-4f25-4c8a-89e2-ae99cc924347
+    owner: {fileID: 11400000}
+    inputNodeGUID: 880bdf08-8e15-4f1c-a016-01fd67d1b17a
+    outputNodeGUID: afae8e6a-4347-4ebb-ac94-708c93511ec9
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 214294e7-1056-476a-9a7b-43ae6d15423f
+    owner: {fileID: 11400000}
+    inputNodeGUID: 2c3a22ab-2350-421b-aa12-06968b971fce
+    outputNodeGUID: afae8e6a-4347-4ebb-ac94-708c93511ec9
+    inputFieldName: inTaskStatus
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 7308f815-fe72-43b0-9129-07a4aa39b981
+    owner: {fileID: 11400000}
+    inputNodeGUID: 66ff3152-500b-4d25-b866-b5b133d58819
+    outputNodeGUID: 2c3a22ab-2350-421b-aa12-06968b971fce
+    inputFieldName: inTaskStatus
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: a64934a1-383c-421b-b892-1b7c44b0eee4
+    owner: {fileID: 11400000}
+    inputNodeGUID: bb448bf7-904e-4405-948d-cf1d474c0f51
+    outputNodeGUID: 66ff3152-500b-4d25-b866-b5b133d58819
+    inputFieldName: inTaskStatus
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 2ca650fe-8729-4c21-aa66-aa17fb5626f7
+    owner: {fileID: 11400000}
+    inputNodeGUID: 92aa10a8-e674-4b80-86e6-3dfdcf976766
+    outputNodeGUID: bb448bf7-904e-4405-948d-cf1d474c0f51
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 56581d51-99ff-4629-9197-909b314c9ad5
+    owner: {fileID: 11400000}
+    inputNodeGUID: 6f6f8d2e-e805-447e-9fc7-572d11a077c5
+    outputNodeGUID: bb448bf7-904e-4405-948d-cf1d474c0f51
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: abe50974-d542-4dfc-9a79-b0e0d3090d22
+    owner: {fileID: 11400000}
+    inputNodeGUID: 5ae29df1-972d-4461-9049-ad7d97bfcd19
+    outputNodeGUID: 66ff3152-500b-4d25-b866-b5b133d58819
+    inputFieldName: inTaskStatus
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 0d0e322a-300c-432c-97e7-e1fe47107b1f
+    owner: {fileID: 11400000}
+    inputNodeGUID: 0496bbcc-2ecb-4959-a359-eafe404d93c0
+    outputNodeGUID: 5ae29df1-972d-4461-9049-ad7d97bfcd19
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 432451a3-73eb-4f86-afa4-20edb0dca454
+    owner: {fileID: 11400000}
+    inputNodeGUID: 2835e965-6cbd-4414-95f3-e45d10530658
+    outputNodeGUID: 5ae29df1-972d-4461-9049-ad7d97bfcd19
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 21775f28-80f4-4eea-8511-977efa4faab1
+    owner: {fileID: 11400000}
+    inputNodeGUID: afae8e6a-4347-4ebb-ac94-708c93511ec9
+    outputNodeGUID: 85ded200-e9ec-4149-9f42-aecb079971b9
+    inputFieldName: inTaskStatus
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 30e0c33a-a6b4-48c9-976b-cbd554161bc1
+    owner: {fileID: 11400000}
+    inputNodeGUID: 3977ecdf-12d8-4ea6-b636-188ff9ed8871
+    outputNodeGUID: afae8e6a-4347-4ebb-ac94-708c93511ec9
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 72ca078c-883f-4e2f-b678-aa7e23d686f2
+    owner: {fileID: 11400000}
+    inputNodeGUID: 94ddc9b9-0735-4776-8038-166d39960984
+    outputNodeGUID: 66ff3152-500b-4d25-b866-b5b133d58819
+    inputFieldName: inTaskStatus
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 39ba570c-e7bc-4dbc-8afc-fa329b84b2b5
+    owner: {fileID: 11400000}
+    inputNodeGUID: 739a2d54-8c0a-4306-9f21-ec521bce8cce
+    outputNodeGUID: 66ff3152-500b-4d25-b866-b5b133d58819
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 072d7b30-c0d9-4638-80fc-ddf8f272e598
+    owner: {fileID: 11400000}
+    inputNodeGUID: ab201953-e2b1-4352-b9da-69e836c8107e
+    outputNodeGUID: 5ae29df1-972d-4461-9049-ad7d97bfcd19
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: be2e4d1e-642b-4bc4-a3bd-16ed64a478b4
+    owner: {fileID: 11400000}
+    inputNodeGUID: 62a1c271-eac2-4b7b-b5f0-fbfc5d2bc2e0
+    outputNodeGUID: bb448bf7-904e-4405-948d-cf1d474c0f51
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: d8d0453c-f41c-4489-a858-12ef070829c9
+    owner: {fileID: 11400000}
+    inputNodeGUID: 7c94a86a-e765-452b-9cd3-792fc8564af7
+    outputNodeGUID: 94ddc9b9-0735-4776-8038-166d39960984
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 173c18db-9adc-41ef-8b85-a2e772cb85ab
+    owner: {fileID: 11400000}
+    inputNodeGUID: 929ae347-f46b-4c1f-a1df-afa0fc592a8a
+    outputNodeGUID: 94ddc9b9-0735-4776-8038-166d39960984
+    inputFieldName: inTaskStatus
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 87f6bcd7-2981-451a-ab8a-cd01ba6ad246
+    owner: {fileID: 11400000}
+    inputNodeGUID: 9bfe62a8-2ebc-48fc-9db9-ff8520aa3993
+    outputNodeGUID: 929ae347-f46b-4c1f-a1df-afa0fc592a8a
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: abf1f84d-db63-4bc1-8134-61224a06ef6d
+    owner: {fileID: 11400000}
+    inputNodeGUID: e1d7a003-e52a-4aa7-aded-4ead14cd9fd7
+    outputNodeGUID: 929ae347-f46b-4c1f-a1df-afa0fc592a8a
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 29e3d27a-9b0a-4ded-9494-d0105d011823
+    owner: {fileID: 11400000}
+    inputNodeGUID: 4a0f39fd-0685-40a6-b359-5965aa0c6c2e
+    outputNodeGUID: 929ae347-f46b-4c1f-a1df-afa0fc592a8a
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  groups:
+  - title: "\u6267\u884C\u6280\u80FD1"
+    color: {r: 1, g: 1, b: 1, a: 0.11372549}
+    position:
+      serializedVersion: 2
+      x: -1329.7273
+      y: 1143.295
+      width: 664
+      height: 377
+    size: {x: 400, y: 200}
+    innerNodeGUIDs:
+    - e1d7a003-e52a-4aa7-aded-4ead14cd9fd7
+    - 9bfe62a8-2ebc-48fc-9db9-ff8520aa3993
+    - 929ae347-f46b-4c1f-a1df-afa0fc592a8a
+    - 4a0f39fd-0685-40a6-b359-5965aa0c6c2e
+  stackNodes: []
+  pinnedElements:
+  - position:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 360
+      height: 500
+    opened: 0
+    editorType:
+      serializedType: GraphProcessor.BaseNodeInspectorView, com.alelievr.NodeGraphProcessor.Editor,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - position:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 360
+      height: 500
+    opened: 0
+    editorType:
+      serializedType: MyBehaviorTree.BaseTaskNodeInspectorView, Assembly-CSharp-Editor,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - position:
+      serializedVersion: 2
+      x: 67
+      y: 262
+      width: 360
+      height: 500
+    opened: 0
+    editorType:
+      serializedType: GraphProcessor.ExposedParameterView, com.alelievr.NodeGraphProcessor.Editor,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  exposedParameters: []
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: 865, y: 21, z: 0}
+  scale: {x: 0.43232757, y: 0.43232757, z: 1}
+  references:
+    version: 2
+    RefIds:
+    - rid: 4485870231381606668
+      type: {class: EntryNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u5165\u53E3"
+        GUID: 85ded200-e9ec-4149-9f42-aecb079971b9
+        computeOrder: 0
+        position:
+          serializedVersion: 2
+          x: -71
+          y: 99.982
+          width: 160
+          height: 120
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+    - rid: 4485870231381606669
+      type: {class: SelectorNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u9009\u62E9 \nSelector"
+        GUID: 66ff3152-500b-4d25-b866-b5b133d58819
+        computeOrder: 3
+        position:
+          serializedVersion: 2
+          x: -71
+          y: 756.67993
+          width: 160
+          height: 120
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        abortType: 0
+        inTaskStatus: 0
+    - rid: 4485870231381606670
+      type: {class: PlayerSkillAction, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u73A9\u5BB6\u6280\u80FD"
+        GUID: e1d7a003-e52a-4aa7-aded-4ead14cd9fd7
+        computeOrder: 6
+        position:
+          serializedVersion: 2
+          x: -1094.7273
+          y: 1355.2952
+          width: 160
+          height: 140
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: PlayerSkillAction
+        enable: 1
+        description: "\u91CA\u653E\u6280\u80FD"
+        status: 0
+        skillTime: -0.005918995
+    - rid: 4485870231381606671
+      type: {class: PlayerJumpAction, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u73A9\u5BB6\u8DF3\u8DC3"
+        GUID: 92aa10a8-e674-4b80-86e6-3dfdcf976766
+        computeOrder: 8
+        position:
+          serializedVersion: 2
+          x: -574.3133
+          y: 1186
+          width: 160
+          height: 120
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: PlayerJumpAction
+        enable: 1
+        description: 
+        status: 0
+        jumpTime: 0
+        m_Anim: {fileID: 0}
+        Grounded: 1
+        GroundedOffset: -0.14
+        GroundedRadius: 0.5
+        GroundLayers:
+          serializedVersion: 2
+          m_Bits: 0
+        JumpHeight: 1.2
+        Gravity: -15
+    - rid: 4485870231381606672
+      type: {class: PlayerMoveAction, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u73A9\u5BB6\u79FB\u52A8"
+        GUID: 2835e965-6cbd-4414-95f3-e45d10530658
+        computeOrder: 10
+        position:
+          serializedVersion: 2
+          x: 193.25107
+          y: 1145
+          width: 160
+          height: 120
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: PlayerMoveAction
+        enable: 1
+        description: 
+        status: 0
+        m_MoveSuccess: 2
+        m_MoveFailure: 1
+        m_Speed: 1.5
+        m_WalkSpeed: 1.5
+        m_SprintSpeed: 5
+        m_RotaSpeed: 20
+    - rid: 4485870231381606673
+      type: {class: SequenceNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u961F\u5217 \nSequence"
+        GUID: afae8e6a-4347-4ebb-ac94-708c93511ec9
+        computeOrder: 1
+        position:
+          serializedVersion: 2
+          x: -70.924484
+          y: 274.749
+          width: 160
+          height: 120
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: Sequence
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        abortType: 2
+        inTaskStatus: 0
+    - rid: 4485870231381606674
+      type: {class: PlayerCameraAction, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u73A9\u5BB6\u76F8\u673A"
+        GUID: 880bdf08-8e15-4f1c-a016-01fd67d1b17a
+        computeOrder: 11
+        position:
+          serializedVersion: 2
+          x: -934.9999
+          y: 617
+          width: 160
+          height: 160
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: PlayerCameraAction
+        enable: 1
+        description: "\u73A9\u5BB6\u64CD\u4F5C\u76F8\u673A"
+        status: 0
+    - rid: 4485870231381606675
+      type: {class: ReturnSuccessNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u8FD4\u56DE\u6210\u529F \nReturn Success"
+        GUID: 2c3a22ab-2350-421b-aa12-06968b971fce
+        computeOrder: 2
+        position:
+          serializedVersion: 2
+          x: -71
+          y: 585
+          width: 160
+          height: 120
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: Return Success
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        inTaskStatus: 0
+    - rid: 4485870231381606676
+      type: {class: SequenceNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u961F\u5217 \nSequence"
+        GUID: bb448bf7-904e-4405-948d-cf1d474c0f51
+        computeOrder: 7
+        position:
+          serializedVersion: 2
+          x: -295.9001
+          y: 914.65
+          width: 160
+          height: 140
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: Sequence
+        enable: 1
+        description: "\u8DF3\u8DC3"
+        outTaskStatus: 0
+        abortType: 2
+        inTaskStatus: 0
+    - rid: 4485870231381606677
+      type: {class: PlayerMoveAction, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u73A9\u5BB6\u79FB\u52A8"
+        GUID: 6f6f8d2e-e805-447e-9fc7-572d11a077c5
+        computeOrder: 12
+        position:
+          serializedVersion: 2
+          x: -375.99985
+          y: 1186
+          width: 160
+          height: 120
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: PlayerMoveAction
+        enable: 1
+        description: 
+        status: 0
+        m_MoveSuccess: 2
+        m_MoveFailure: 2
+        m_Speed: 10
+        m_WalkSpeed: 3
+        m_SprintSpeed: 10
+        m_RotaSpeed: 20
+    - rid: 4485870231381606678
+      type: {class: PlayerRotationAction, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u73A9\u5BB6\u671D\u5411"
+        GUID: 0496bbcc-2ecb-4959-a359-eafe404d93c0
+        computeOrder: 13
+        position:
+          serializedVersion: 2
+          x: -8.00004
+          y: 1145
+          width: 160
+          height: 120
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: PlayerRotationAction
+        enable: 1
+        description: 
+        status: 0
+        m_RotaSpeed: 20
+    - rid: 4485870231381606679
+      type: {class: SequenceNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u961F\u5217 \nSequence"
+        GUID: 5ae29df1-972d-4461-9049-ad7d97bfcd19
+        computeOrder: 9
+        position:
+          serializedVersion: 2
+          x: 72.00007
+          y: 913
+          width: 160
+          height: 140
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: Sequence
+        enable: 1
+        description: "\u79FB\u52A8"
+        outTaskStatus: 0
+        abortType: 0
+        inTaskStatus: 0
+    - rid: 4485870231381606680
+      type: {class: EmptyNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u7A7A\u8282\u70B9"
+        GUID: 3977ecdf-12d8-4ea6-b636-188ff9ed8871
+        computeOrder: 14
+        position:
+          serializedVersion: 2
+          x: 734.2953
+          y: 557
+          width: 160
+          height: 120
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: Empty
+        enable: 1
+        description: 
+        status: 0
+        returnTaskStatus: 3
+    - rid: 4485870231381606681
+      type: {class: PlayTimelineAction, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u64AD\u653ETimeline"
+        GUID: 9bfe62a8-2ebc-48fc-9db9-ff8520aa3993
+        computeOrder: 15
+        position:
+          serializedVersion: 2
+          x: -1304.7273
+          y: 1375.2952
+          width: 160
+          height: 120
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: PlayTimelineAction
+        enable: 1
+        description: 
+        status: 0
+        TaskStatus: 2
+        m_PlayableDirectorName: Timeline
+    - rid: 4485870231381606682
+      type: {class: SequenceNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u961F\u5217 \nSequence"
+        GUID: 94ddc9b9-0735-4776-8038-166d39960984
+        computeOrder: 4
+        position:
+          serializedVersion: 2
+          x: -1193.0001
+          y: 913
+          width: 160
+          height: 120
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: Sequence
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        abortType: 0
+        inTaskStatus: 0
+    - rid: 4485870231381606683
+      type: {class: PlayTimelineAction, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u64AD\u653ETimeline"
+        GUID: 739a2d54-8c0a-4306-9f21-ec521bce8cce
+        computeOrder: 16
+        position:
+          serializedVersion: 2
+          x: 617.0226
+          y: 1065.9998
+          width: 160
+          height: 120
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: PlayTimelineAction
+        enable: 1
+        description: 
+        status: 0
+        TaskStatus: 2
+        m_PlayableDirectorName: Timeline_Idle
+    - rid: 4485870231381606684
+      type: {class: PlayTimelineAction, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u64AD\u653ETimeline"
+        GUID: ab201953-e2b1-4352-b9da-69e836c8107e
+        computeOrder: 17
+        position:
+          serializedVersion: 2
+          x: 385.004
+          y: 1145
+          width: 160
+          height: 120
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: PlayTimelineAction
+        enable: 1
+        description: 
+        status: 0
+        TaskStatus: 2
+        m_PlayableDirectorName: Timeline_run
+    - rid: 4485870231381606685
+      type: {class: PlayTimelineAction, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u64AD\u653ETimeline"
+        GUID: 62a1c271-eac2-4b7b-b5f0-fbfc5d2bc2e0
+        computeOrder: 18
+        position:
+          serializedVersion: 2
+          x: -191.31325
+          y: 1186
+          width: 160
+          height: 120
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: PlayTimelineAction
+        enable: 1
+        description: 
+        status: 0
+        TaskStatus: 3
+        m_PlayableDirectorName: Timeline_jump
+    - rid: 4485870231381606686
+      type: {class: PlayerInputCommondAction, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u73A9\u5BB6\u8F93\u5165\u547D\u4EE4"
+        GUID: 7c94a86a-e765-452b-9cd3-792fc8564af7
+        computeOrder: 19
+        position:
+          serializedVersion: 2
+          x: -1683.405
+          y: 1066
+          width: 160
+          height: 120
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: PlayerInputCommondAction
+        enable: 1
+        description: 
+        status: 0
+        m_PlayerInputCommandType: 3
+        m_NeedReset: 1
+    - rid: 4485870231381606687
+      type: {class: SequenceNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u961F\u5217 \nSequence"
+        GUID: 929ae347-f46b-4c1f-a1df-afa0fc592a8a
+        computeOrder: 5
+        position:
+          serializedVersion: 2
+          x: -1037.7273
+          y: 1205.2952
+          width: 160
+          height: 120
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: Sequence
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        abortType: 2
+        inTaskStatus: 0
+    - rid: 4485870231381606688
+      type: {class: EmptyNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u7A7A\u8282\u70B9"
+        GUID: 4a0f39fd-0685-40a6-b359-5965aa0c6c2e
+        computeOrder: 20
+        position:
+          serializedVersion: 2
+          x: -850.7273
+          y: 1355.2952
+          width: 160
+          height: 120
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: Empty
+        enable: 1
+        description: 
+        status: 0
+        returnTaskStatus: 3

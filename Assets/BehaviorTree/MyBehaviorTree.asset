@@ -1,0 +1,1544 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b054871c218762940a3c910314121b68, type: 3}
+  m_Name: MyBehaviorTree
+  m_EditorClassIdentifier: 
+  serializedNodes: []
+  nodes:
+  - rid: 4638086693534564772
+  - rid: 4638086693534564773
+  - rid: 4638086693534564774
+  - rid: 4638086693534564775
+  - rid: 4638086693534564776
+  - rid: 4638086693534564777
+  - rid: 4638086693534564778
+  - rid: 4638086693534564779
+  - rid: 4638086693534564780
+  - rid: 4638086693534564781
+  - rid: 4638086693534564782
+  - rid: 4638086693534564783
+  - rid: 4638086693534564784
+  - rid: 4638086693534564785
+  - rid: 4638086693534564786
+  - rid: 4638086693534564787
+  - rid: 4638086693534564788
+  - rid: 4638086693534564789
+  - rid: 4638086693534564790
+  - rid: 4638086693534564791
+  - rid: 4638086693534564792
+  - rid: 4638086693534564793
+  - rid: 4638086693534564794
+  - rid: 4638086693534564795
+  - rid: 4638086693534564796
+  - rid: 4638086693534564797
+  - rid: 4638086693534564798
+  - rid: 4638086693534564799
+  - rid: 4638086693534564800
+  - rid: 4638086693534564801
+  - rid: 4638086693534564802
+  - rid: 4638086693534564803
+  - rid: 4638086693534564804
+  - rid: 4638086693534564805
+  - rid: 4638086693534564806
+  - rid: 4638086693534564807
+  - rid: 4638086693534564808
+  - rid: 4638086693534564809
+  - rid: 4638086693534564810
+  - rid: 4638086693534564811
+  - rid: 4638086693534564812
+  - rid: 4638086693534564813
+  - rid: 4638086693534564814
+  - rid: 4638086693534564815
+  - rid: 4638086693534564816
+  - rid: 4638086693534564817
+  - rid: 4638086693534564818
+  - rid: 4638086693534564819
+  - rid: 4638086693534564820
+  - rid: 4638086693534564821
+  - rid: 4638086693534564822
+  - rid: 4638086693534564823
+  edges:
+  - GUID: dae883d4-951f-46e6-bf72-0b50e3022770
+    owner: {fileID: 11400000}
+    inputNodeGUID: 5b961efc-00d0-4d9b-a0ca-75328ffc3fea
+    outputNodeGUID: f7cf00ee-20fc-4a92-9160-f65ecce1de62
+    inputFieldName: inTaskStatus
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 0978ddf3-63a5-4ee3-929f-96403443ef14
+    owner: {fileID: 11400000}
+    inputNodeGUID: 562a3f97-4e61-48ab-b24d-fc07c4170ddc
+    outputNodeGUID: 5b961efc-00d0-4d9b-a0ca-75328ffc3fea
+    inputFieldName: inTaskStatus
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: f769f23d-ed07-4664-b593-052ca50f46c9
+    owner: {fileID: 11400000}
+    inputNodeGUID: e5c0f95d-ab8c-4659-b785-a2ce9e9ee329
+    outputNodeGUID: 3402ff25-6a0c-400c-be9a-28bff6a2d974
+    inputFieldName: inTaskStatus
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: d6a7b04e-a166-42de-87ff-644653e19a59
+    owner: {fileID: 11400000}
+    inputNodeGUID: 2e097d64-6ded-4792-aac2-f414be1455c1
+    outputNodeGUID: e5c0f95d-ab8c-4659-b785-a2ce9e9ee329
+    inputFieldName: inTaskStatus
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 8f1f4b9f-c28a-42d9-a053-13f772eb455b
+    owner: {fileID: 11400000}
+    inputNodeGUID: f1e814d3-3174-40fa-9252-0da31df70783
+    outputNodeGUID: a8cdea9f-b9d3-4431-816a-5fc187789ba0
+    inputFieldName: inTaskStatus
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 6898066b-8703-488e-8304-067a8dcdd3ce
+    owner: {fileID: 11400000}
+    inputNodeGUID: d3c61314-f380-4713-b1b0-ac6a6535ea85
+    outputNodeGUID: f1e814d3-3174-40fa-9252-0da31df70783
+    inputFieldName: inTaskStatus
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: efd80c82-800d-43c3-828d-e2242e7d691a
+    owner: {fileID: 11400000}
+    inputNodeGUID: d10c1d20-2327-4d14-bac5-4d06164f8d5c
+    outputNodeGUID: b7aa9323-fdd1-4510-9f81-21fdaa196dc6
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 4331f453-77e6-42a8-8eeb-759d0693f19a
+    owner: {fileID: 11400000}
+    inputNodeGUID: 4d292893-6d6b-4358-a0af-d326e5092eed
+    outputNodeGUID: b7aa9323-fdd1-4510-9f81-21fdaa196dc6
+    inputFieldName: inTaskStatus
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 6ab102d0-cbc0-4f2b-afd9-1d8616a02278
+    owner: {fileID: 11400000}
+    inputNodeGUID: e336d7b8-45de-4ec1-b092-a1d62a51780c
+    outputNodeGUID: b7aa9323-fdd1-4510-9f81-21fdaa196dc6
+    inputFieldName: inTaskStatus
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 6467d790-7cd7-47f0-a366-5fe037ffb3a5
+    owner: {fileID: 11400000}
+    inputNodeGUID: d566e7df-15c3-418b-8023-16ec4b5e5471
+    outputNodeGUID: c737e6fb-9a39-4fb0-a42c-db877aa8099d
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 927c11a1-2d15-43ba-8bee-01887d91a66a
+    owner: {fileID: 11400000}
+    inputNodeGUID: 47306763-faf0-4c27-a70d-da47cea2afd7
+    outputNodeGUID: c737e6fb-9a39-4fb0-a42c-db877aa8099d
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: c50e29d6-45a0-4873-b2d6-59e75af87312
+    owner: {fileID: 11400000}
+    inputNodeGUID: 112d1031-b434-4f70-a1af-4e26b314aecc
+    outputNodeGUID: c737e6fb-9a39-4fb0-a42c-db877aa8099d
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 5fe5b309-abb4-4fb9-a0cb-7ef1a3d6c846
+    owner: {fileID: 11400000}
+    inputNodeGUID: 91f6eefb-49f4-46a4-99f3-28837d498014
+    outputNodeGUID: 38b18109-febd-4543-bb27-0b0a17a30ad6
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 898b566f-d2b3-4f34-bb3c-c0b60e23c77d
+    owner: {fileID: 11400000}
+    inputNodeGUID: b46c973c-59bb-437b-ae4b-e3987239875e
+    outputNodeGUID: 38b18109-febd-4543-bb27-0b0a17a30ad6
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: ce8303d5-c793-4a66-968a-7abad995d1a3
+    owner: {fileID: 11400000}
+    inputNodeGUID: 5528ee17-5d36-4677-92c4-1bf1e80fbcd1
+    outputNodeGUID: 7c698786-7293-44e4-ba1d-1babdd8c29fd
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 81a80933-c27c-43cd-a5ed-6780c438f724
+    owner: {fileID: 11400000}
+    inputNodeGUID: 89fd0449-d4d5-425d-828c-e76f48f4f6f0
+    outputNodeGUID: 7c698786-7293-44e4-ba1d-1babdd8c29fd
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 86dcac38-c090-45d5-b7d6-58276280833a
+    owner: {fileID: 11400000}
+    inputNodeGUID: a3dc4510-cce1-4921-a1c1-454a23eb1633
+    outputNodeGUID: 7c698786-7293-44e4-ba1d-1babdd8c29fd
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 207b5145-f019-42cf-8c77-f047b35f37ed
+    owner: {fileID: 11400000}
+    inputNodeGUID: 73355f65-486f-4d14-a4c0-b17eb070416d
+    outputNodeGUID: 5d7682db-82b6-4609-af22-6f2e936b3b1b
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: bdb2972a-6f99-4d4c-8b91-f84f65262383
+    owner: {fileID: 11400000}
+    inputNodeGUID: 74861ddf-5000-467e-9a98-e61d35fbe756
+    outputNodeGUID: 5d7682db-82b6-4609-af22-6f2e936b3b1b
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: d830c52b-1707-4a16-94f5-b3eea1c8b75a
+    owner: {fileID: 11400000}
+    inputNodeGUID: 34bbc1f7-2f6b-44bf-9620-9a1594857e8d
+    outputNodeGUID: 5d7682db-82b6-4609-af22-6f2e936b3b1b
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 2c715ddf-bd1e-4df8-a10d-c1a87feb0dd0
+    owner: {fileID: 11400000}
+    inputNodeGUID: eb65a16f-fa74-4540-ac95-f30a90f71c51
+    outputNodeGUID: e6053a18-d636-4711-bce1-e75a30d971fe
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: c54f96b5-be61-43fc-844c-41bd15b5f8c6
+    owner: {fileID: 11400000}
+    inputNodeGUID: 57431f6f-edfa-40a5-a4cc-1017f303a208
+    outputNodeGUID: e6053a18-d636-4711-bce1-e75a30d971fe
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 502e0142-191b-485a-a641-5b2b23fac35d
+    owner: {fileID: 11400000}
+    inputNodeGUID: bce781db-bebc-486d-b02a-b452b2e9c0d4
+    outputNodeGUID: e6053a18-d636-4711-bce1-e75a30d971fe
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 0581e2f7-27c4-4e9f-8809-38fa441498e6
+    owner: {fileID: 11400000}
+    inputNodeGUID: 5ce8a4b7-1378-4338-9996-aa1327110681
+    outputNodeGUID: f324da75-77a7-494d-84bf-ece6b7356285
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: e30a8c7c-4f56-40cc-b0bc-4477ad7376ac
+    owner: {fileID: 11400000}
+    inputNodeGUID: 1257e119-e890-4e0b-a791-c8d080e0e4e3
+    outputNodeGUID: f324da75-77a7-494d-84bf-ece6b7356285
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 4d178bdc-416c-422d-aa58-85a9050476d6
+    owner: {fileID: 11400000}
+    inputNodeGUID: bd7c90cb-9f52-4428-975c-db76c937b326
+    outputNodeGUID: f324da75-77a7-494d-84bf-ece6b7356285
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 34faf25a-41d6-4fed-a8e5-30541a3d3490
+    owner: {fileID: 11400000}
+    inputNodeGUID: e322dd10-26c9-4688-a931-b9e64b6782e5
+    outputNodeGUID: 9094b899-b050-434b-8a1d-7e9c6cc660ce
+    inputFieldName: inTaskStatus
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 550f475a-fe31-40fb-8834-f9c2a24dbf09
+    owner: {fileID: 11400000}
+    inputNodeGUID: c737e6fb-9a39-4fb0-a42c-db877aa8099d
+    outputNodeGUID: e322dd10-26c9-4688-a931-b9e64b6782e5
+    inputFieldName: inTaskStatus
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: ebf6688a-8c69-4a3e-8b61-a288d6a8b851
+    owner: {fileID: 11400000}
+    inputNodeGUID: cb9e823f-83a3-460e-a00b-3b7a2a473a34
+    outputNodeGUID: e322dd10-26c9-4688-a931-b9e64b6782e5
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: ac95eb10-5a48-449d-b04e-df69f608dcb6
+    owner: {fileID: 11400000}
+    inputNodeGUID: b435dcd2-02ac-4d17-840b-11719414c87d
+    outputNodeGUID: e322dd10-26c9-4688-a931-b9e64b6782e5
+    inputFieldName: status
+    outputFieldName: outTaskStatus
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  groups: []
+  stackNodes: []
+  pinnedElements:
+  - position:
+      serializedVersion: 2
+      x: 0
+      y: 8
+      width: 350
+      height: 425
+    opened: 1
+    editorType:
+      serializedType: MyBehaviorTree.InspectorView, Assembly-CSharp-Editor, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  - position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 150
+      height: 200
+    opened: 1
+    editorType:
+      serializedType: MyBehaviorTree.NodeInspectorView, Assembly-CSharp-Editor, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  - position:
+      serializedVersion: 2
+      x: 2
+      y: 2
+      width: 150
+      height: 200
+    opened: 1
+    editorType:
+      serializedType: GraphProcessor.NodeInspectorView, com.alelievr.NodeGraphProcessor.Editor,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - position:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 314
+      height: 679
+    opened: 0
+    editorType:
+      serializedType: GraphProcessor.BaseNodeInspectorView, com.alelievr.NodeGraphProcessor.Editor,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - position:
+      serializedVersion: 2
+      x: 219
+      y: 21
+      width: 363
+      height: 880
+    opened: 0
+    editorType:
+      serializedType: MyBehaviorTree.BaseTaskNodeInspectorView, Assembly-CSharp-Editor,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - position:
+      serializedVersion: 2
+      x: 92
+      y: 165
+      width: 360
+      height: 500
+    opened: 0
+    editorType:
+      serializedType: GraphProcessor.ExposedParameterView, com.alelievr.NodeGraphProcessor.Editor,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - position:
+      serializedVersion: 2
+      x: 321
+      y: 96
+      width: 100
+      height: 695
+    opened: 0
+    editorType:
+      serializedType: GraphProcessor.ProcessorView, com.alelievr.NodeGraphProcessor.Editor,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - position:
+      serializedVersion: 2
+      x: 0
+      y: 175
+      width: 360
+      height: 500
+    opened: 0
+    editorType:
+      serializedType: ConditionalProcessorView, Assembly-CSharp-Editor, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  exposedParameters:
+  - rid: 4638086693534564824
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: 534, y: 322, z: 0}
+  scale: {x: 0.32690176, y: 0.32690176, z: 1}
+  references:
+    version: 2
+    RefIds:
+    - rid: 4638086693534564772
+      type: {class: EntryNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u5165\u53E3"
+        GUID: 9094b899-b050-434b-8a1d-7e9c6cc660ce
+        computeOrder: 0
+        position:
+          serializedVersion: 2
+          x: 409.31412
+          y: -561.02185
+          width: 140
+          height: 92
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+    - rid: 4638086693534564773
+      type: {class: LogNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u65E5\u5FD7"
+        GUID: d10c1d20-2327-4d14-bac5-4d06164f8d5c
+        computeOrder: 2
+        position:
+          serializedVersion: 2
+          x: 210
+          y: 259
+          width: 140
+          height: 92
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        status: 0
+        log: 
+        logType: 0
+        returnTaskStatus: 0
+        utility: 0
+    - rid: 4638086693534564774
+      type: {class: ParallelNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u5E76\u884C \nParallel"
+        GUID: b7aa9323-fdd1-4510-9f81-21fdaa196dc6
+        computeOrder: 1
+        position:
+          serializedVersion: 2
+          x: 321.0001
+          y: 31.262915
+          width: 140
+          height: 98
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        abortType: 0
+        inTaskStatus: 0
+    - rid: 4638086693534564775
+      type: {class: ParallelCompleteNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u5E76\u884C\u5B8C\u6210 \nParallel Complete"
+        GUID: e336d7b8-45de-4ec1-b092-a1d62a51780c
+        computeOrder: 3
+        position:
+          serializedVersion: 2
+          x: 582
+          y: 237
+          width: 120
+          height: 98
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        abortType: 0
+        inTaskStatus: 0
+    - rid: 4638086693534564776
+      type: {class: ParallelSelectorNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u5E76\u884C\u9009\u62E9 \nParallel Selector"
+        GUID: 4d292893-6d6b-4358-a0af-d326e5092eed
+        computeOrder: 4
+        position:
+          serializedVersion: 2
+          x: 391
+          y: 237.00003
+          width: 140
+          height: 98
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        abortType: 0
+        inTaskStatus: 0
+    - rid: 4638086693534564777
+      type: {class: PrioritySelectroNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u4F18\u5148\u9009\u62E9 \nPriority Selector"
+        GUID: 9491ffb7-4f9d-47e1-ab29-4023050483b9
+        computeOrder: 5
+        position:
+          serializedVersion: 2
+          x: 757
+          y: 237
+          width: 120
+          height: 98
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        abortType: 0
+        inTaskStatus: 0
+    - rid: 4638086693534564778
+      type: {class: RandomSelectorNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u968F\u673A\u9009\u62E9 \nRandom Selector"
+        GUID: 1f200d45-9dcf-4404-a480-09da45b2229c
+        computeOrder: 6
+        position:
+          serializedVersion: 2
+          x: 390.99997
+          y: 370
+          width: 140
+          height: 98
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        abortType: 0
+        inTaskStatus: 0
+    - rid: 4638086693534564779
+      type: {class: RandomSequenceNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u968F\u673A\u961F\u5217 \nRandom Sequence"
+        GUID: 78b3b50d-c83c-4d21-ab72-63d552b40a82
+        computeOrder: 7
+        position:
+          serializedVersion: 2
+          x: 582
+          y: 370
+          width: 140
+          height: 98
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        abortType: 0
+        inTaskStatus: 0
+    - rid: 4638086693534564780
+      type: {class: SelectorNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u9009\u62E9 \nSelector"
+        GUID: fa16273c-bb91-454b-bba1-77379da560f6
+        computeOrder: 8
+        position:
+          serializedVersion: 2
+          x: 756.9999
+          y: 370
+          width: 140
+          height: 98
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        abortType: 0
+        inTaskStatus: 0
+    - rid: 4638086693534564781
+      type: {class: SelectorEvaluatorNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u9009\u62E9\u8BC4\u4F30 \nSelector Evaluator"
+        GUID: 941e9dd6-fe79-421b-a68a-8d0eedcf885a
+        computeOrder: 9
+        position:
+          serializedVersion: 2
+          x: 390.99997
+          y: 517.0001
+          width: 140
+          height: 98
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        abortType: 0
+        inTaskStatus: 0
+    - rid: 4638086693534564782
+      type: {class: SequenceNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u961F\u5217 \nSequence"
+        GUID: 5a13e0ec-e0c3-4ac3-bff1-ff28ee9fa5d5
+        computeOrder: 10
+        position:
+          serializedVersion: 2
+          x: 582
+          y: 526
+          width: 140
+          height: 98
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        abortType: 0
+        inTaskStatus: 0
+    - rid: 4638086693534564783
+      type: {class: UtilitySelectorNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u6548\u80FD\u9009\u62E9 \nUtility Selector"
+        GUID: 67f3b7a3-9f2a-427c-a329-1f20116b9eb5
+        computeOrder: 11
+        position:
+          serializedVersion: 2
+          x: 757
+          y: 517
+          width: 140
+          height: 98
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        abortType: 0
+        inTaskStatus: 0
+    - rid: 4638086693534564784
+      type: {class: ConditionalEvaluatorNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u6761\u4EF6\u8BC4\u4F30 \nConditional Evaluator"
+        GUID: f7cf00ee-20fc-4a92-9160-f65ecce1de62
+        computeOrder: 12
+        position:
+          serializedVersion: 2
+          x: -23.000013
+          y: 253.00003
+          width: 140
+          height: 98
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        inTaskStatus: 0
+    - rid: 4638086693534564785
+      type: {class: InterruptNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u6253\u65AD \nInterrupt"
+        GUID: 5b961efc-00d0-4d9b-a0ca-75328ffc3fea
+        computeOrder: 13
+        position:
+          serializedVersion: 2
+          x: -23.000013
+          y: 370
+          width: 140
+          height: 98
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        inTaskStatus: 0
+    - rid: 4638086693534564786
+      type: {class: InverterNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u53CD\u8F6C \nInverter"
+        GUID: 562a3f97-4e61-48ab-b24d-fc07c4170ddc
+        computeOrder: 14
+        position:
+          serializedVersion: 2
+          x: -22.999989
+          y: 498.00003
+          width: 140
+          height: 98
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        inTaskStatus: 0
+    - rid: 4638086693534564787
+      type: {class: RepeaterNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u91CD\u590D \nRepeater"
+        GUID: 3402ff25-6a0c-400c-be9a-28bff6a2d974
+        computeOrder: 15
+        position:
+          serializedVersion: 2
+          x: -186.99992
+          y: 258.99997
+          width: 140
+          height: 98
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        inTaskStatus: 0
+    - rid: 4638086693534564788
+      type: {class: ReturnFailureNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u8FD4\u56DE\u5931\u8D25 \nReturn Failure"
+        GUID: e5c0f95d-ab8c-4659-b785-a2ce9e9ee329
+        computeOrder: 16
+        position:
+          serializedVersion: 2
+          x: -187
+          y: 400.00006
+          width: 140
+          height: 98
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        inTaskStatus: 0
+    - rid: 4638086693534564789
+      type: {class: ReturnSuccessNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u8FD4\u56DE\u6210\u529F \nReturn Success"
+        GUID: 2e097d64-6ded-4792-aac2-f414be1455c1
+        computeOrder: 17
+        position:
+          serializedVersion: 2
+          x: -187.00003
+          y: 526.0001
+          width: 140
+          height: 98
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        inTaskStatus: 0
+    - rid: 4638086693534564790
+      type: {class: TaskGuardNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u4EFB\u52A1\u770B\u5B88 \nTask Guard"
+        GUID: a8cdea9f-b9d3-4431-816a-5fc187789ba0
+        computeOrder: 18
+        position:
+          serializedVersion: 2
+          x: -382
+          y: 272
+          width: 140
+          height: 98
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        inTaskStatus: 0
+    - rid: 4638086693534564791
+      type: {class: UntilFailureNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u76F4\u5230\u5931\u8D25 \nUntilFailure"
+        GUID: f1e814d3-3174-40fa-9252-0da31df70783
+        computeOrder: 19
+        position:
+          serializedVersion: 2
+          x: -382
+          y: 419.00006
+          width: 140
+          height: 98
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        inTaskStatus: 0
+    - rid: 4638086693534564792
+      type: {class: UntilSuccessNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u76F4\u5230\u6210\u529F \nUntil Success"
+        GUID: d3c61314-f380-4713-b1b0-ac6a6535ea85
+        computeOrder: 20
+        position:
+          serializedVersion: 2
+          x: -382.00006
+          y: 566.00006
+          width: 140
+          height: 98
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        inTaskStatus: 0
+    - rid: 4638086693534564793
+      type: {class: WaitNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u7B49\u5F85 \nWait"
+        GUID: 8134ed54-ce47-45f5-825e-296f0f63fe66
+        computeOrder: 21
+        position:
+          serializedVersion: 2
+          x: 369.47913
+          y: 664
+          width: 140
+          height: 92
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        status: 0
+    - rid: 4638086693534564794
+      type: {class: SequenceNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u961F\u5217 \nSequence"
+        GUID: c737e6fb-9a39-4fb0-a42c-db877aa8099d
+        computeOrder: 23
+        position:
+          serializedVersion: 2
+          x: 209.99991
+          y: -278.64615
+          width: 140
+          height: 98
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        abortType: 1
+        inTaskStatus: 0
+    - rid: 4638086693534564795
+      type: {class: LogNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u65E5\u5FD7"
+        GUID: d566e7df-15c3-418b-8023-16ec4b5e5471
+        computeOrder: 24
+        position:
+          serializedVersion: 2
+          x: 70.00011
+          y: -132.99994
+          width: 140
+          height: 92
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        status: 0
+        log: 1
+        logType: 3
+        returnTaskStatus: 2
+        utility: 0
+    - rid: 4638086693534564796
+      type: {class: LogNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u65E5\u5FD7"
+        GUID: 47306763-faf0-4c27-a70d-da47cea2afd7
+        computeOrder: 25
+        position:
+          serializedVersion: 2
+          x: 299.0001
+          y: -107.00003
+          width: 140
+          height: 92
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        status: 0
+        log: 2
+        logType: 3
+        returnTaskStatus: 2
+        utility: 0
+    - rid: 4638086693534564797
+      type: {class: LogNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u65E5\u5FD7"
+        GUID: 112d1031-b434-4f70-a1af-4e26b314aecc
+        computeOrder: 26
+        position:
+          serializedVersion: 2
+          x: 531
+          y: -107.00003
+          width: 140
+          height: 92
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        status: 0
+        log: 3
+        logType: 3
+        returnTaskStatus: 2
+        utility: 0
+    - rid: 4638086693534564798
+      type: {class: SelectorNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u9009\u62E9 \nSelector"
+        GUID: 38b18109-febd-4543-bb27-0b0a17a30ad6
+        computeOrder: 27
+        position:
+          serializedVersion: 2
+          x: -382
+          y: -242.99998
+          width: 140
+          height: 98
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        abortType: 0
+        inTaskStatus: 0
+    - rid: 4638086693534564799
+      type: {class: LogNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u65E5\u5FD7"
+        GUID: 91f6eefb-49f4-46a4-99f3-28837d498014
+        computeOrder: 28
+        position:
+          serializedVersion: 2
+          x: -717.9999
+          y: -107.000015
+          width: 140
+          height: 92
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        status: 0
+        log: 2
+        logType: 3
+        returnTaskStatus: 1
+        utility: 0
+    - rid: 4638086693534564800
+      type: {class: LogNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u65E5\u5FD7"
+        GUID: b46c973c-59bb-437b-ae4b-e3987239875e
+        computeOrder: 29
+        position:
+          serializedVersion: 2
+          x: -621.25073
+          y: -61.00002
+          width: 140
+          height: 92
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        status: 0
+        log: 1
+        logType: 0
+        returnTaskStatus: 1
+        utility: 0
+    - rid: 4638086693534564801
+      type: {class: ParallelNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u5E76\u884C \nParallel"
+        GUID: 7c698786-7293-44e4-ba1d-1babdd8c29fd
+        computeOrder: 30
+        position:
+          serializedVersion: 2
+          x: -858.0001
+          y: -309
+          width: 140
+          height: 98
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        abortType: 0
+        inTaskStatus: 0
+    - rid: 4638086693534564802
+      type: {class: LogNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u65E5\u5FD7"
+        GUID: 5528ee17-5d36-4677-92c4-1bf1e80fbcd1
+        computeOrder: 31
+        position:
+          serializedVersion: 2
+          x: -1319.9999
+          y: -15.000042
+          width: 140
+          height: 92
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        status: 0
+        log: log1
+        logType: 3
+        returnTaskStatus: 2
+        utility: 0
+    - rid: 4638086693534564803
+      type: {class: LogNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u65E5\u5FD7"
+        GUID: 89fd0449-d4d5-425d-828c-e76f48f4f6f0
+        computeOrder: 32
+        position:
+          serializedVersion: 2
+          x: -1159.4813
+          y: -14.999996
+          width: 140
+          height: 92
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        status: 0
+        log: log2
+        logType: 3
+        returnTaskStatus: 2
+        utility: 0
+    - rid: 4638086693534564804
+      type: {class: LogNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u65E5\u5FD7"
+        GUID: a3dc4510-cce1-4921-a1c1-454a23eb1633
+        computeOrder: 33
+        position:
+          serializedVersion: 2
+          x: -973.4791
+          y: -15.000043
+          width: 140
+          height: 92
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        status: 0
+        log: log3
+        logType: 3
+        returnTaskStatus: 2
+        utility: 0
+    - rid: 4638086693534564805
+      type: {class: ParallelCompleteNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u5E76\u884C\u5B8C\u6210 \nParallel Complete"
+        GUID: 5d7682db-82b6-4609-af22-6f2e936b3b1b
+        computeOrder: 34
+        position:
+          serializedVersion: 2
+          x: -2011.1116
+          y: -222.01186
+          width: 140
+          height: 98
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        abortType: 0
+        inTaskStatus: 0
+    - rid: 4638086693534564806
+      type: {class: LogNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u65E5\u5FD7"
+        GUID: 73355f65-486f-4d14-a4c0-b17eb070416d
+        computeOrder: 35
+        position:
+          serializedVersion: 2
+          x: -2181.9998
+          y: -61.000015
+          width: 140
+          height: 92
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        status: 0
+        log: 1
+        logType: 3
+        returnTaskStatus: 3
+        utility: 0
+    - rid: 4638086693534564807
+      type: {class: LogNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u65E5\u5FD7"
+        GUID: 34bbc1f7-2f6b-44bf-9620-9a1594857e8d
+        computeOrder: 36
+        position:
+          serializedVersion: 2
+          x: -1817.8501
+          y: -31.99998
+          width: 140
+          height: 92
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        status: 0
+        log: 3
+        logType: 3
+        returnTaskStatus: 2
+        utility: 0
+    - rid: 4638086693534564808
+      type: {class: LogNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u65E5\u5FD7"
+        GUID: 74861ddf-5000-467e-9a98-e61d35fbe756
+        computeOrder: 37
+        position:
+          serializedVersion: 2
+          x: -2042.0504
+          y: -18.549986
+          width: 140
+          height: 92
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        status: 0
+        log: 2
+        logType: 3
+        returnTaskStatus: 2
+        utility: 0
+    - rid: 4638086693534564809
+      type: {class: ParallelSelectorNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u5E76\u884C\u9009\u62E9 \nParallel Selector"
+        GUID: e6053a18-d636-4711-bce1-e75a30d971fe
+        computeOrder: 38
+        position:
+          serializedVersion: 2
+          x: -2567.2007
+          y: -320
+          width: 140
+          height: 98
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        abortType: 0
+        inTaskStatus: 0
+    - rid: 4638086693534564810
+      type: {class: PrioritySelectroNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u4F18\u5148\u9009\u62E9 \nPriority Selector"
+        GUID: 6c634618-4950-4d2e-b22b-0cb9c1423784
+        computeOrder: 39
+        position:
+          serializedVersion: 2
+          x: -4071.5593
+          y: -550.6241
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        abortType: 0
+        inTaskStatus: 0
+    - rid: 4638086693534564811
+      type: {class: RandomSelectorNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u968F\u673A\u9009\u62E9 \nRandom Selector"
+        GUID: 098070ea-6b77-466b-8dba-3f12eb7f849f
+        computeOrder: 40
+        position:
+          serializedVersion: 2
+          x: -3853.959
+          y: -472.55856
+          width: 140
+          height: 98
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        abortType: 0
+        inTaskStatus: 0
+    - rid: 4638086693534564812
+      type: {class: RandomSelectorNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u968F\u673A\u9009\u62E9 \nRandom Selector"
+        GUID: e5cb6b14-a4c9-4f63-b8a8-3d04df587567
+        computeOrder: 41
+        position:
+          serializedVersion: 2
+          x: -2893.8057
+          y: -320.0001
+          width: 140
+          height: 98
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        abortType: 0
+        inTaskStatus: 0
+    - rid: 4638086693534564813
+      type: {class: LogNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u65E5\u5FD7"
+        GUID: eb65a16f-fa74-4540-ac95-f30a90f71c51
+        computeOrder: 42
+        position:
+          serializedVersion: 2
+          x: -2670
+          y: -153
+          width: 140
+          height: 92
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        status: 0
+        log: log1
+        logType: 3
+        returnTaskStatus: 1
+        utility: 0
+    - rid: 4638086693534564814
+      type: {class: LogNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u65E5\u5FD7"
+        GUID: 57431f6f-edfa-40a5-a4cc-1017f303a208
+        computeOrder: 43
+        position:
+          serializedVersion: 2
+          x: -2335
+          y: -153
+          width: 140
+          height: 92
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        status: 0
+        log: log3
+        logType: 3
+        returnTaskStatus: 1
+        utility: 0
+    - rid: 4638086693534564815
+      type: {class: LogNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u65E5\u5FD7"
+        GUID: bce781db-bebc-486d-b02a-b452b2e9c0d4
+        computeOrder: 44
+        position:
+          serializedVersion: 2
+          x: -2497
+          y: -128
+          width: 140
+          height: 92
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        status: 0
+        log: log2
+        logType: 3
+        returnTaskStatus: 2
+        utility: 0
+    - rid: 4638086693534564816
+      type: {class: RandomSequenceNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u968F\u673A\u961F\u5217 \nRandom Sequence"
+        GUID: dae324d0-825a-46cf-acbd-4a54863acfd1
+        computeOrder: 45
+        position:
+          serializedVersion: 2
+          x: -3041.75
+          y: -92.77341
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        abortType: 0
+        inTaskStatus: 0
+    - rid: 4638086693534564817
+      type: {class: UtilitySelectorNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u6548\u80FD\u9009\u62E9 \nUtility Selector"
+        GUID: f324da75-77a7-494d-84bf-ece6b7356285
+        computeOrder: 46
+        position:
+          serializedVersion: 2
+          x: -3244.95
+          y: -375
+          width: 140
+          height: 98
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        abortType: 0
+        inTaskStatus: 0
+    - rid: 4638086693534564818
+      type: {class: LogNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u65E5\u5FD7"
+        GUID: 5ce8a4b7-1378-4338-9996-aa1327110681
+        computeOrder: 47
+        position:
+          serializedVersion: 2
+          x: -3508.521
+          y: -219.99998
+          width: 140
+          height: 92
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        status: 0
+        log: 1
+        logType: 3
+        returnTaskStatus: 1
+        utility: 5
+    - rid: 4638086693534564819
+      type: {class: LogNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u65E5\u5FD7"
+        GUID: 1257e119-e890-4e0b-a791-c8d080e0e4e3
+        computeOrder: 48
+        position:
+          serializedVersion: 2
+          x: -3209
+          y: -222.00002
+          width: 140
+          height: 92
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        status: 0
+        log: 2
+        logType: 3
+        returnTaskStatus: 1
+        utility: 1
+    - rid: 4638086693534564820
+      type: {class: LogNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u65E5\u5FD7"
+        GUID: bd7c90cb-9f52-4428-975c-db76c937b326
+        computeOrder: 49
+        position:
+          serializedVersion: 2
+          x: -3056.95
+          y: -221.99998
+          width: 140
+          height: 92
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        status: 0
+        log: 3
+        logType: 3
+        returnTaskStatus: 3
+        utility: 3
+    - rid: 4638086693534564821
+      type: {class: SelectorNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u9009\u62E9 \nSelector"
+        GUID: e322dd10-26c9-4688-a931-b9e64b6782e5
+        computeOrder: 22
+        position:
+          serializedVersion: 2
+          x: 408.99988
+          y: -406.9165
+          width: 140
+          height: 98
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        outTaskStatus: 0
+        abortType: 0
+        inTaskStatus: 0
+    - rid: 4638086693534564822
+      type: {class: LogNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u65E5\u5FD7"
+        GUID: cb9e823f-83a3-460e-a00b-3b7a2a473a34
+        computeOrder: 50
+        position:
+          serializedVersion: 2
+          x: 703.99994
+          y: -243.00002
+          width: 140
+          height: 92
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        status: 0
+        log: log
+        logType: 3
+        returnTaskStatus: 3
+        utility: 0
+    - rid: 4638086693534564823
+      type: {class: LogNode, ns: MyBehaviorTree, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: "\u65E5\u5FD7"
+        GUID: b435dcd2-02ac-4d17-840b-11719414c87d
+        computeOrder: 51
+        position:
+          serializedVersion: 2
+          x: -70.00002
+          y: -225.00002
+          width: 140
+          height: 92
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        createMenuName: 
+        enable: 1
+        description: 
+        status: 0
+        log: log
+        logType: 3
+        returnTaskStatus: 1
+        utility: 0
+    - rid: 4638086693534564824
+      type: {class: FloatParameter, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        guid: 6397680d-f001-4967-98fd-19273dd5e4fe
+        name: New Float
+        type: 
+        serializedValue:
+          serializedType: 
+          serializedName: 
+          serializedValue: 
+        input: 1
+        settings:
+          rid: 4638086693534564825
+        val: 0
+    - rid: 4638086693534564825
+      type: {class: FloatParameter/FloatSettings, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        isHidden: 0
+        expanded: 0
+        guid: 6397680d-f001-4967-98fd-19273dd5e4fe
+        mode: 0
+        min: 0
+        max: 1
